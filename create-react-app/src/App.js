@@ -2,6 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  console.log('log'); // ✅ Printed
+  console.info('info'); // ✅ Printed
+  console.error('error'); // ❌ Not printed
+
   return (
     <div className="App">
       <header className="App-header">
